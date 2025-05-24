@@ -29,7 +29,7 @@ class ElectricPokemon(Pokemon):
         self.electric_damage = electric_damage
 
     def attack(self) -> str:
-        return f"{self.name} lanzó un ataque eléctrico"
+        return f"{self.name} lanzó un ataque eléctrico!"
 
 class FirePokemon(Pokemon):
     def __init__(self, id: int, name: str, weight: float, height: float, trainer: Trainer, fire_damage: int = 0):
@@ -37,7 +37,7 @@ class FirePokemon(Pokemon):
         self.fire_damage = fire_damage
 
     def attack(self) -> str:
-        return f"{self.name} lanzó un ataque de fuego"
+        return f"{self.name} lanzó un ataque de fuego!"
 
 class WaterPokemon(Pokemon):
     def __init__(self, id: int, name: str, weight: float, height: float, trainer: Trainer, water_damage: int = 0):
@@ -45,4 +45,4 @@ class WaterPokemon(Pokemon):
         self.water_damage = water_damage
 
     def attack(self) -> str:
-        return f"{self.name} lanzó un ataque de agua"
+        return f"{self.name} lanzó un ataque acuático!"
