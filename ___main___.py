@@ -3,7 +3,7 @@ from trainer import Trainer
 
 def classes_manual_tests():
     # Creación de entrenadores
-    ash = Trainer(1, "Ash", "Rueda", 10, 5)
+    ash = Trainer(1, "Ash", "Ketchum", 10, 5)
     misty = Trainer(2, "Misty", "Erazo", 12, 11)
     brock = Trainer(3, "Brock", "Herrera", 18, 15)
 
