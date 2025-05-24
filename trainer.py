@@ -7,7 +7,7 @@ class Trainer:
         self.level = level
 
     def __str__(self) -> str:
-        return f"El nombre del entrenador es: {self.first_name} {self.last_name}"
+        return f"{self.first_name} {self.last_name}"
     
     def get_id(self) -> int:
         return self.__id

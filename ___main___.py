@@ -8,7 +8,6 @@ def classes_manual_tests():
     brock = Trainer(3, "Brock", "Herrera", 18, 15)
 
     # Despliegue en pantalla de entrenadores
-    print("=== Entrenadores ===")
     print(ash)
     print(misty)
     print(brock)
