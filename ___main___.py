@@ -30,11 +30,6 @@ def classes_manual_tests():
     print(charmander.attack())
     print(squirtle.attack())
 
-    # Verificación de relación con entrenador
-    print("=== Entrenadores de Pokemones ===")
-    print(f"{pikachu.name} es entrenado por {pikachu.trainer}")
-    print(f"{charmander.name} es entrenado por {charmander.trainer}")
-    print(f"{squirtle.name} es entrenado por {squirtle.trainer}")
 
 if __name__ == '__main__':
     classes_manual_tests()
